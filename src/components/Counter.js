@@ -41,9 +41,18 @@ this.incrementCounter();
 
 
     render() {
+
+//destructuring props and state lile this props can be destructing like this
+
+const {count}=this.state
+
         return (
             <div>
-                <p>Counter value is: {this.state.count}</p>
+                <p>Counter value is:
+                    {count} 
+                    {/* {this.state.count} */}
+
+                </p>
                 <button onClick={this.incrementCounter}>Click me</button>
                 <br/>
                 <button onClick={this.incrementFiveCounter}>Click me increment by 5</button>
