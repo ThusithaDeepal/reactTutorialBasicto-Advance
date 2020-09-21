@@ -6,6 +6,7 @@ import Counter from './components/Counter';
 import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
 import ConditionalGreeting from './components/ConditionalGreeting';
+import NameList from './components/NameList';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
     <Counter/> */}
       {/* <EventBind /> */}
       {/* <ParentComponent /> */}
-      <ConditionalGreeting />
+      {/* <ConditionalGreeting /> */}
+      <NameList />
     </div>
   );
 }
