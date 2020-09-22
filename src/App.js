@@ -7,6 +7,8 @@ import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
 import ConditionalGreeting from './components/ConditionalGreeting';
 import NameList from './components/NameList';
+import StyleSheet from './components/StyleSheet'
+import Inline from './components/Inline';
 
 function App() {
   return (
@@ -16,7 +18,9 @@ function App() {
       {/* <EventBind /> */}
       {/* <ParentComponent /> */}
       {/* <ConditionalGreeting /> */}
-      <NameList />
+      {/* <NameList /> */}
+      <StyleSheet primary={false} />
+      <Inline />
     </div>
   );
 }
