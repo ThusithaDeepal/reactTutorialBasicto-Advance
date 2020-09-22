@@ -9,6 +9,7 @@ import ConditionalGreeting from './components/ConditionalGreeting';
 import NameList from './components/NameList';
 import StyleSheet from './components/StyleSheet'
 import Inline from './components/Inline';
+import Form from './components/Form'
 
 function App() {
   return (
@@ -19,8 +20,9 @@ function App() {
       {/* <ParentComponent /> */}
       {/* <ConditionalGreeting /> */}
       {/* <NameList /> */}
-      <StyleSheet primary={false} />
-      <Inline />
+      {/* <StyleSheet primary={false} />
+      <Inline /> */}
+      <Form />
     </div>
   );
 }
