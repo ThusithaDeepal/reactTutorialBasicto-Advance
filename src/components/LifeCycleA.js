@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import LifeCycleB from './LifeCycleB';
 
+
 // order of mounting life LifeCycle
 // 1. Constructor
 // 2. getDerivedStateFromProps

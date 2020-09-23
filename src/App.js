@@ -11,6 +11,9 @@ import StyleSheet from './components/StyleSheet'
 import Inline from './components/Inline';
 import Form from './components/Form'
 import LifeCycleA from './components/LifeCycleA';
+import FragmentsDemo from './components/FragmentsDemo';
+import TableFragment from './components/TableFragment';
+
 
 function App() {
   return (
@@ -24,7 +27,9 @@ function App() {
       {/* <StyleSheet primary={false} />
       <Inline /> */}
       {/* <Form /> */}
-      <LifeCycleA />
+      {/* <LifeCycleA /> */}
+      {/* <FragmentsDemo /> */}
+      <TableFragment />
     </div>
   );
 }
