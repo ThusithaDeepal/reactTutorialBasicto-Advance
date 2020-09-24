@@ -16,6 +16,8 @@ import TableFragment from './components/TableFragment';
 import YoutubePlayerComponent from './components/YoutubePlayerComponent';
 import ParentComponentRegPure from './components/ParentComponentRegPure';
 import RefsDemo from './components/RefsDemo';
+import FocusInput from './components/FocusInput';
+import FRParentInput from './components/FRParentInput';
 
 
 function App() {
@@ -35,7 +37,9 @@ function App() {
       {/* <TableFragment /> */}
       {/* <YoutubePlayerComponent /> */}
       {/* <ParentComponentRegPure /> */}
-      <RefsDemo />
+      {/* <RefsDemo /> */}
+      {/* <FocusInput /> */}
+      <FRParentInput />
     </div>
   );
 }
