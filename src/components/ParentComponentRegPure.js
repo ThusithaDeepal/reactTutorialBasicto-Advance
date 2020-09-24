@@ -1,13 +1,14 @@
 import React, { Component } from 'react'
 import PureComponennt from './PureComponennt'
 import RegularComponent from './RegularComponent'
+import MemoComponent from './MemoComponent'
 
 export default class ParentComponentRegPure extends Component {
 
   //Regular component should not implememt ShouldComponentUpdate(next props,next state) by default,It return true by default
   //so regular component re render when state chaneg  if the prev state same in next state
   //In PureComponent implements ShouldComponentUpdate(next props,next state), a shallow comparison on props 
-  // and state and returns true if any props or states have changed.else did not re render
+  // and state and returns true if any props or states have changed then re render.else did not re render
   //
 
   constructor(props) {
@@ -32,12 +33,15 @@ export default class ParentComponentRegPure extends Component {
 
 
   render() {
-
+    console.log("Im parent component")
     return (
+
       <div>
-        {this.state.name}
-        <RegularComponent />
-        <PureComponennt />
+
+        {/* <RegularComponent name={this.state.name} />
+        <PureComponennt name={this.state.name} /> */}
+
+        <MemoComponent name={this.state.name} />
 
       </div>
     )

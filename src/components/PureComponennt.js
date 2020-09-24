@@ -10,7 +10,8 @@ export default class PureComponennt extends PureComponent {
     console.log("Im pure componennt")
     return (
       <div>
-
+        Im pure componennt {this.props.name
+        }
       </div>
     )
   }

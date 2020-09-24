@@ -12,7 +12,7 @@ export default class RegularComponent extends Component {
 
     return (
       <div>
-
+        Im Regular componennt {this.props.name}
       </div>
     )
   }
