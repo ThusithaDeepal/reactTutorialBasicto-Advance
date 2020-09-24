@@ -13,6 +13,8 @@ import Form from './components/Form'
 import LifeCycleA from './components/LifeCycleA';
 import FragmentsDemo from './components/FragmentsDemo';
 import TableFragment from './components/TableFragment';
+import YoutubePlayerComponent from './components/YoutubePlayerComponent';
+import ParentComponentRegPure from './components/ParentComponentRegPure';
 
 
 function App() {
@@ -29,7 +31,9 @@ function App() {
       {/* <Form /> */}
       {/* <LifeCycleA /> */}
       {/* <FragmentsDemo /> */}
-      <TableFragment />
+      {/* <TableFragment /> */}
+      {/* <YoutubePlayerComponent /> */}
+      <ParentComponentRegPure />
     </div>
   );
 }
