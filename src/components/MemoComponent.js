@@ -12,3 +12,5 @@ function MemoComponent({ name }) {
 
 // export default MemoComponent
 export default React.memo(MemoComponent)  //this rect.memo is a higher order component accpet a component and return anothe component
+
+//should stop rerender for same props 

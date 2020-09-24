@@ -15,6 +15,7 @@ import FragmentsDemo from './components/FragmentsDemo';
 import TableFragment from './components/TableFragment';
 import YoutubePlayerComponent from './components/YoutubePlayerComponent';
 import ParentComponentRegPure from './components/ParentComponentRegPure';
+import RefsDemo from './components/RefsDemo';
 
 
 function App() {
@@ -33,7 +34,8 @@ function App() {
       {/* <FragmentsDemo /> */}
       {/* <TableFragment /> */}
       {/* <YoutubePlayerComponent /> */}
-      <ParentComponentRegPure />
+      {/* <ParentComponentRegPure /> */}
+      <RefsDemo />
     </div>
   );
 }
