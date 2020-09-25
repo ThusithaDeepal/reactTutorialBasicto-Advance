@@ -18,6 +18,7 @@ import ParentComponentRegPure from './components/ParentComponentRegPure';
 import RefsDemo from './components/RefsDemo';
 import FocusInput from './components/FocusInput';
 import FRParentInput from './components/FRParentInput';
+import PortalsDemo from './components/PortalsDemo';
 
 
 function App() {
@@ -39,7 +40,8 @@ function App() {
       {/* <ParentComponentRegPure /> */}
       {/* <RefsDemo /> */}
       {/* <FocusInput /> */}
-      <FRParentInput />
+      {/* <FRParentInput /> */}
+      <PortalsDemo />
     </div>
   );
 }
