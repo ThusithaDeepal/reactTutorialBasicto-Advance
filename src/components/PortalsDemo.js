@@ -1,7 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-
+// Portals provide a first-class way to render children into a DOM node
+//  that exists outside the DOM hierarchy of the parent component.
 function PortalsDemo() {
 
   return ReactDOM.createPortal(
