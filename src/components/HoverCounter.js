@@ -15,4 +15,4 @@ import withCounterHoc from './withCounterHOC'
     }
 }
 
-export default withCounterHoc(HoverCounter)
+export default withCounterHoc(HoverCounter,100)

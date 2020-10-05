@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const withCounterHoc=WrappedComponent=>
+const withCounterHoc=(WrappedComponent,countTimes)=>
 {
 
     class WithCounterHoc extends React.Component{
@@ -15,13 +15,15 @@ const withCounterHoc=WrappedComponent=>
         }
     incrementCounter=()=>{
         this.setState(prevState=>{
-    return {count:prevState.count+1}
+    return {count:prevState.count+countTimes}
         })
     }
 
 
       render(){
-          return  <WrappedComponent count={this.state.count} incrementCounter={this.incrementCounter}/>
+          return  <WrappedComponent count={this.state.count} incrementCounter={this.incrementCounter}
+          {...this.props} //passing all parent props to children
+          />
              
           
       }

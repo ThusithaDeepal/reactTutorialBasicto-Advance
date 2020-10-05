@@ -5,13 +5,13 @@ import withCounterHoc from './withCounterHOC'
 
    
     render() {
-        
+        console.log(this.props.name)
         return (
             <div>
-            <button onClick={this.props.incrementCounter}>counter is {this.props.count} </button>   
+            <button onClick={this.props.incrementCounter}>counter is {this.props.count}  {this.props.name} </button>   
             </div>
         )
     }
 }
 
-export default withCounterHoc(ClickCounter)
+export default withCounterHoc(ClickCounter,5)
