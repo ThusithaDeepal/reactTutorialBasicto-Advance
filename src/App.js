@@ -29,6 +29,8 @@ import UserRenderProp from "./components/UserRenderProp";
 import CounterRenderProp from "./components/CounterRenderProp";
 import ComponentC from "./components/ComponentC";
 import { UserProvider } from "./components/UserComponent";
+import PostList from "./components/PostList";
+import PostForm from "./components/PostForm";
 
 function App() {
   return (
@@ -76,10 +78,14 @@ function App() {
           <HoverCounterTwo count={count} incrementCount={incrementCount} />
         )}
       </CounterRenderProp> */}
-
+{/* 
       <UserProvider value='thusitha'>
         <ComponentC />
-      </UserProvider>
+      </UserProvider> */}
+
+      {/* <PostList/> */}
+    
+    <PostForm/>
     </div>
   );
 }
